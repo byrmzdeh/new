@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Fresh Fruit",
+        "img": "https://preview.colorlib.com/theme/ogani/img/categories/cat-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dried Fruit",
+        "img": "https://preview.colorlib.com/theme/ogani/img/categories/cat-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Vegetables",
+        "img": "https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Drink fruits",
+        "img": "https://preview.colorlib.com/theme/ogani/img/categories/cat-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": " Drink Furits",
+        "img": "https://preview.colorlib.com/theme/ogani/img/categories/cat-5.jpg"
+    }
+]
+

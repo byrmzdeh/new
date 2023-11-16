@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(226, 224, 224);
+}
+nav .gmail {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .gmail span {
+  border-right: 1px solid black;
+  padding-right: 13px;
+}
+nav .icon-ul {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .icon-ul li a {
+  color: black;
+}
+nav .icon-ul li a:hover {
+  color: rgb(60, 57, 57);
+}
+nav .icon-ul li a .fa-pinterest {
+  border-right: 1px solid black;
+  padding-right: 6px;
+}
+nav .icon-ul li a select {
+  border-right: 1px solid black;
+  padding-left: 6px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header img {
+  width: 130px;
+}
+header ul {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header ul li a {
+  color: black;
+  font-weight: 600;
+  transition: 0.3s;
+}
+header ul li a:hover {
+  color: #7fad39;
+}
+header ul li i {
+  font-size: 23px;
+  transition: 0.4s;
+}
+header ul li i:hover {
+  color: rgb(117, 97, 97) 144, 111, 111;
+}
+header ul li sup {
+  background-color: #7fad39;
+  padding: 2px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.one {
+  margin: auto;
+  width: 87%;
+  height: 70vh;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+}
+.one .all-one {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.one .all-one .all {
+  width: 200px;
+}
+.one .all-one .all .dep {
+  width: 190px;
+  height: 40px;
+  background-color: #7fad39;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+.one .all-one .all .dep .fa-arrow-down {
+  padding-left: 10px;
+}
+.one .all-one .all .dep .fa-bars {
+  padding-right: 10px;
+}
+.one .all-one .all .all-ul {
+  background-color: white;
+  border: 1px solid #7fad39;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.one .all-one .all .all-ul li {
+  padding: 7px;
+}
+.one .all-one .all .all-ul li a {
+  color: black;
+}
+.one .all-one .all .opacity {
+  opacity: 1;
+}
+.one .all-one .search {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  border: 1px solid gray;
+  align-items: center;
+  justify-content: space-between;
+}
+.one .all-one .search button {
+  height: 50px;
+  width: 160px;
+  background-color: #7fad39;
+  color: white;
+  border: none;
+}
+.one .all-one .search input {
+  margin-left: 30px;
+  padding: 15px 240px 15px 10px;
+  border: none;
+  border-left: 1px solid gray;
+}
+.one .all-one .search input:focus {
+  outline: none;
+}
+.one .all-one .search h3 {
+  font-weight: bolder;
+}
+.one .all-one .phone {
+  display: flex;
+  gap: 5px;
+}
+.one .all-one .phone .telep {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7fad39;
+  color: white;
+  border-radius: 50%;
+}
+.one .all-one .phone .support p {
+  color: rgb(84, 84, 84);
+}/*# sourceMappingURL=style.css.map */
